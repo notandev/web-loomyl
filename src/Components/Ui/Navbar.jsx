@@ -50,7 +50,7 @@ function Navbar() {
             <img className="w-10 h-10 rounded-full" src={photo} alt="Foto Profile" /> : <div className="w-10 h-10 rounded-full bg-gray-50"/>
           }
             <div className="flex flex-col justify-evenly text-left">
-              <p onClick={() => navigate('/user-profile')} className="text-white font-3xl text-lg hover:text-hover">
+              <p onClick={() => navigate('/user-profile')} className="text-white font-3xl text-lg hover:text-hover transition-all duration-300">
                 {user.username}
               </p>
             </div>
