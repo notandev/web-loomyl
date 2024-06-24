@@ -72,13 +72,13 @@ function Comunity() {
     <>
       <Navbar />
       <div className="bg-comunity-page w-full bg-cover pt-24 pb-24 md:pt-36 grid place-items-center gap-y-10">
-        <div className="w-[90%] md:w-1/2 h-10 flex items-center bg-transparent border-gray-800 border rounded-md px-3">
+        <div className="w-[90%] md:w-1/2 h-10 flex items-center bg-transparent border-white border rounded-md px-3">
           <button className="w-auto h-full pr-2 ">
             <ion-icon name="search-outline"></ion-icon>
           </button>
           <input
             type="search"
-            className="w-full h-full bg-white outline-[#14116E] focus:outline-none placeholder:text-[#14116E]"
+            className="w-full h-full outline-white focus:outline-none placeholder:text-[#14116E]"
             placeholder="Search.."
             value={searchTag}
             onChange={(e) => setSearchTag(e.target.value)}
