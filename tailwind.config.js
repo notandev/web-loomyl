@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         footer: '#F3F3FD',
+        hover: '#14116E',
       },
       backgroundImage: {
         'hero-pattern': "url('/src/assets/images/hero-pattern.svg')",
