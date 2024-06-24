@@ -79,7 +79,7 @@ function Comunity() {
           <input
             type="search"
             className="w-full h-full bg-transparent outline-[#14116E] focus:outline-none placeholder:text-[#14116E]"
-            placeholder="Search by tag"
+            placeholder="Search.."
             value={searchTag}
             onChange={(e) => setSearchTag(e.target.value)}
           />
