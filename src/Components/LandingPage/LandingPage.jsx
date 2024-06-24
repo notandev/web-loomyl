@@ -241,7 +241,7 @@ function LandingPage() {
                   <div className="grid grid-cols-3 items-start">
                     <img src={thumb} alt="Thumbnail" className="col-span-1 w-[250px] md:w-full h-fit md:h-full" />
                     <div className="col-span-2 text-left md:px-5 grid place-content-center gap-y-2">
-                      <a href="https://herminahospitals.com/id/articles/7-tips-mudah-ibu-hamil-untuk-kehamilan-yang-sehat-dan-nyaman-2bb8cd6a-3f0f-416f-a27a-481fc4e41242.html" className="font-bold underline text-sm md:text-3xl">
+                      <a href="https://herminahospitals.com/id/articles/7-tips-mudah-ibu-hamil-untuk-kehamilan-yang-sehat-dan-nyaman-2bb8cd6a-3f0f-416f-a27a-481fc4e41242.html" className="text-sm md:text-3xl">
                         7 Tips Mudah Ibu Hamil Untuk Kehamilan Yang Sehat dan Nyaman.
                       </a>
                       <p className="text-xs md:text-base">
@@ -250,9 +250,9 @@ function LandingPage() {
                     </div>
                   </div>
                   <div className="grid grid-cols-3 items-start">
-                    <img src={artikel2} alt="Thumbnail" className="w-[250px] md:w-full h-fit md:h-full" />
-                    <div className=" col-span-2text-left md:px-5 grid place-content-center gap-y-2">
-                      <a href="https://www.halodoc.com/artikel/ini-6-jenis-kelas-kehamilan-yang-bisa-ibu-hamil-ikuti" className="font-bold underline text-sm md:text-3xl">
+                    <img src={artikel2} alt="Thumbnail" className="col-span-1 w-[250px] md:w-full h-fit md:h-full" />
+                    <div className=" col-span-2 text-left md:px-5 grid place-content-center gap-y-2">
+                      <a href="https://www.halodoc.com/artikel/ini-6-jenis-kelas-kehamilan-yang-bisa-ibu-hamil-ikuti" className="text-sm md:text-3xl">
                         Ini 6 Jenis Kehamilan yang bisa ibu hamil ikuti
                       </a>
                       <p className="text-xs md:text-base">
@@ -264,7 +264,7 @@ function LandingPage() {
                   <div className="grid grid-cols-3 items-start">
                     <img src={artikel3} alt="Thumbnail" className="w-[250px] md:w-full h-fit md:h-full" />
                     <div className="col-span-2 text-left md:px-5 grid place-content-center gap-y-2">
-                      <a href="https://pyfahealth.com/blog/kenali-contoh-gejala-maag-saat-hamil/" className="font-bold underline text-sm md:text-3xl">
+                      <a href="https://pyfahealth.com/blog/kenali-contoh-gejala-maag-saat-hamil/" className="text-sm md:text-3xl">
                         Kenali Contoh Gejala Maag Saat Hamil
                       </a>
                       <p className="text-xs md:text-base">
@@ -276,7 +276,7 @@ function LandingPage() {
                   <div className="grid grid-cols-3 items-start">
                     <img src={artikel4} alt="Thumbnail" className="w-[250px] md:w-full h-fit md:h-full" />
                     <div className="col-span-2 text-left md:px-5 grid place-content-center gap-y-2">
-                      <a href="" className="font-bold underline text-sm md:text-3xl">
+                      <a href="" className="text-sm md:text-3xl">
                         Ibu Hamil Sering Marah? Ini Efek Sampingnya Bagi Janin dan Cara...
                       </a>
                       <p className="text-xs md:text-base">
@@ -288,7 +288,7 @@ function LandingPage() {
                   <div className="grid grid-cols-3 items-start">
                     <img src={artikel5} alt="Thumbnail" className="w-[250px] md:w-full h-fit md:h-full" />
                     <div className="col-span-2 text-left md:px-5 grid place-content-center gap-y-2">
-                      <a href="https://www.alodokter.com/ini-4-manfaat-senam-hamil-yang-perlu-bumil-ketahui" className="font-bold underline text-sm md:text-3xl">
+                      <a href="https://www.alodokter.com/ini-4-manfaat-senam-hamil-yang-perlu-bumil-ketahui" className="text-sm md:text-3xl">
                         Ini 4 Manfaat Senam Hamil yang Perlu Bumil Ketahui
                       </a>
                       <p className="text-xs md:text-base">
@@ -300,7 +300,7 @@ function LandingPage() {
                   <div className="grid grid-cols-3 items-start">
                     <img src={artikel6} alt="Thumbnail" className="w-[250px] md:w-full h-fit md:h-full" />
                     <div className="col-span-2 text-left md:px-5 grid place-content-center gap-y-2">
-                      <a href="" className="font-bold underline text-sm md:text-3xl">
+                      <a href="" className="text-sm md:text-3xl">
                         Inilah 7 Vitamin Penting yang Dibutuhkan Ibu Hamil
                       </a>
                       <p className="text-xs md:text-base">
