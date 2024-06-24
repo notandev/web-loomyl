@@ -276,7 +276,7 @@ function LandingPage() {
                   <div className="grid grid-cols-3 items-start">
                     <img src={artikel4} alt="Thumbnail" className="w-[250px] md:w-full h-fit md:h-full" />
                     <div className="col-span-2 text-left md:px-5 grid place-content-center gap-y-2">
-                      <a href="" className="text-sm md:text-3xl hover:text-blue-700">
+                      <a href="https://www.alodokter.com/ibu-hamil-jangan-marah-marah-terus-ini-efeknya-pada-bayi" className="text-sm md:text-3xl hover:text-blue-700">
                         Ibu Hamil Sering Marah? Ini Efek Sampingnya Bagi Janin dan Cara...
                       </a>
                       <p className="text-xs md:text-base">
@@ -300,7 +300,7 @@ function LandingPage() {
                   <div className="grid grid-cols-3 items-start">
                     <img src={artikel6} alt="Thumbnail" className="w-[250px] md:w-full h-fit md:h-full" />
                     <div className="col-span-2 text-left md:px-5 grid place-content-center gap-y-2">
-                      <a href="" className="text-sm md:text-3xl hover:text-blue-700">
+                      <a href="https://www.halodoc.com/artikel/inilah-7-vitamin-penting-yang-dibutuhkan-ibu-hamil" className="text-sm md:text-3xl hover:text-blue-700">
                         Inilah 7 Vitamin Penting yang Dibutuhkan Ibu Hamil
                       </a>
                       <p className="text-xs md:text-base">
