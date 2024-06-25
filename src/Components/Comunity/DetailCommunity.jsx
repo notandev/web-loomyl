@@ -45,9 +45,9 @@ const DetailCommunity = () => {
         }
     };
 
-    const getComment = useCallback(() => {
-        getCommentByCommunityId(id).then((res) => {
-            setComment(res.data.data);
+    const get = useCallback(() => {
+        getByCommunityId(id).then((res) => {
+            set(res.data.data);
             console.log(res.data.data[0].user_id);
             res.data.data.forEach(async (data) => {
                 console.log('user_id', data.user_id);
@@ -57,7 +57,7 @@ const DetailCommunity = () => {
                 }
                 const imageFileName = image[0].url;
                 const imageUrl = `https://api.ahmadjumhadi.my.id/uploads/${imageFileName}`;
-                setProfileImageComment(prevImages => ({ ...prevImages, [data.user_id]: imageUrl }));
+                setProfileImage(prevImages => ({ ...prevImages, [data.user_id]: imageUrl }));
             });
         }).catch((err) => {
             console.log(err);
@@ -76,16 +76,16 @@ const DetailCommunity = () => {
 
     useEffect(() => {
         getDetailComunity();
-        getComment();
+        get();
         getProfileImage();
-    }, [getDetailComunity, getComment, getProfileImage]);
+    }, [getDetailComunity, get, getProfileImage]);
 
-    const handlePostComment = () => {
+    const handlePost = () => {
         const payload = {
             content,
             comunity_id: id
         };
-        createComment(payload).then((response) => {
+        create(payload).then((response) => {
             getComment();
         }).catch((error) => {
             console.log(error);
@@ -159,7 +159,7 @@ const DetailCommunity = () => {
                                             <p className="pl-3">{commentData.content}</p>
                                         </div>
                                     </div>
-                                    {commentData.user_id === userId && <button className="bg-[#ED4141] h-10 text-white py-1 px-3 rounded-xl" onClick={() => handleDeleteComment(commentData.id)}>Hapus</button>}
+                                    {commentData.user_id === userId && <button className="bg-[#ED4141] h-10 text-white py-1 px-3 rounded-xl" onClick={handleDeleteComment(commentData.id)}>Hapus</button>}
                                 </div>
                                 <hr />
                                 </div>
